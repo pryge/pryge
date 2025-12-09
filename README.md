@@ -1,7 +1,5 @@
 Hi there 
-Header
-
-About me
+### I`m a full stack developer
 
 Languages & tools
 
