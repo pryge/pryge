@@ -1,8 +1,3 @@
-# QUOTES.md
-
-> This file is open for **contributions**!  
-> Feel free to submit a pull request with your favorite quote.
-
 ###  ⚠️ Rules:
 
 1. Each quote must start with a **dash** and a **space**: "- " 
@@ -11,7 +6,7 @@
 
 3. No empty lines
 
-4.  Quotes must be written in English or Ukrainian
+4. Quotes must be written in English or Ukrainian
 
 ---
 
@@ -42,9 +37,3 @@
 ---
 
 ### Quotes
-
-- Life is what happens when you're busy making other plans. — John Lennon
-- Stay hungry, stay foolish. — Steve Jobs
-- Simplicity is the ultimate sophistication. — Leonardo da Vinci
-- First, solve the problem. Then, write the code. — John Johnson
-- Code is like humor. When you have to explain it, it’s bad. — Cory House

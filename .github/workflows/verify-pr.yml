@@ -7,6 +7,7 @@ on:
 jobs:
   verify:
     runs-on: ubuntu-latest
+    if: github.actor != 'pryge'
     steps:
       - name: verify-version
         uses: actions-cool/verify-files-modify@v1.1.0
