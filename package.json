@@ -1,0 +1,23 @@
+{
+  "name": "pryge",
+  "version": "1.0.0",
+  "description": "Full-Stack Developer from Ukraine 🇺🇦 - Daily quotes generator",
+  "main": "quotes.brain.js",
+  "scripts": {
+    "start": "node quotes.brain.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pryge/pryge.git"
+  },
+  "keywords": ["quotes", "github-readme", "daily", "fullstack"],
+  "author": "Олег",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pryge/pryge/issues"
+  },
+  "homepage": "https://github.com/pryge/pryge#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

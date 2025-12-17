@@ -1,0 +1,50 @@
+name: CI - Quotes Project
+
+on:
+  push:
+    paths:
+      - 'quotes.md'
+      - 'update-quote.js'
+      - 'README.md'
+  pull_request:
+    paths:
+      - 'quotes.md'
+      - 'update-quote.js'
+      - 'README.md'
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      # Клонуємо репо
+      - uses: actions/checkout@v4
+
+      # Встановлюємо Node.js
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      # Встановлюємо lodash для скрипта
+      - run: npm install lodash
+
+      # Перевірка синтаксису скрипта
+      - name: Check update-quote.js
+        run: node update-quote.js --dry-run || exit 1
+
+      # Перевірка форматування quotes.md
+      - name: Check quotes format
+        run: |
+          errors=0
+          while IFS= read -r line
+          do
+            if [[ -n "$line" && "$line" != -* ]]; then
+              echo "❌ Invalid line in quotes.md: $line"
+              errors=$((errors+1))
+            fi
+          done < quotes.md
+
+          if [ $errors -gt 0 ]; then
+            exit 1
+          else
+            echo "✅ All quotes are properly formatted"
+          fi
