@@ -1,7 +1,7 @@
 const fs = require('fs');
 const sample = require('lodash/sample');
 
-const quotesFile = './quotes.md';
+const quotesFile = './QUOTES.md';
 const readmeFile = './README.md';
 
 const quotations = fs.readFileSync(quotesFile, 'utf8')

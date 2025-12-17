@@ -8,7 +8,7 @@ Full-Stack Developer from Ukraine 🇺🇦
 
 ---
 
-### 📜 <a href="https://github.com/pryge/pryge/blob/main/quotes.md"> Daily Quotations</a>
+### 📜 <a href="https://github.com/pryge/pryge/blob/main/QUOTES.md"> Daily Quotations</a>
 
 <!-- QUOTE_START -->
 Simplicity is the ultimate sophistication. — Leonardo da Vinci

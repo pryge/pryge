@@ -25,13 +25,13 @@
 3. Create a new branch:
    `git checkout -b new-quote`
 
-4. Edit this file (**quotes.md**)
+4. Edit this file (**QUOTES.md**)
 
 5. Add your quote at the end of the file
 
 5. Commit and push your changes:
 
-   `git add quotes.md`
+   `git add QUOTES.md`
 
    `git commit -m "Add new quote"`
 
