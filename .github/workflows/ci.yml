@@ -16,22 +16,17 @@ jobs:
   verify:
     runs-on: ubuntu-latest
     steps:
-      # Клонуємо репо
       - uses: actions/checkout@v4
 
-      # Встановлюємо Node.js
       - uses: actions/setup-node@v4
         with:
           node-version: 18
 
-      # Встановлюємо lodash для скрипта
       - run: npm install lodash
 
-      # Перевірка синтаксису скрипта
-      - name: Check update-quote.js
-        run: node update-quote.js --dry-run || exit 1
+      - name: Check quotes.brain.js
+        run: node quotes.brain.js --dry-run || exit 1
 
-      # Перевірка форматування quotes.md
       - name: Check quotes format
         run: |
           errors=0
