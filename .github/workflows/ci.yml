@@ -3,12 +3,12 @@ name: CI - Quotes Project
 on:
   push:
     paths:
-      - 'quotes.md'
+      - 'QUOTES.md'
       - 'update-quote.js'
       - 'README.md'
   pull_request:
     paths:
-      - 'quotes.md'
+      - 'QUOTES.md'
       - 'update-quote.js'
       - 'README.md'
 
@@ -39,10 +39,10 @@ jobs:
           while IFS= read -r line
           do
             if [[ -n "$line" && "$line" != -* ]]; then
-              echo "❌ Invalid line in quotes.md: $line"
+              echo "❌ Invalid line in QUOTES.md: $line"
               errors=$((errors+1))
             fi
-          done < quotes.md
+          done < QUOTES.md
 
           if [ $errors -gt 0 ]; then
             exit 1

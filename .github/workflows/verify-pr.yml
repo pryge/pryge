@@ -11,10 +11,10 @@ jobs:
       - name: verify-version
         uses: actions-cool/verify-files-modify@v1.1.0
         with:
-          allowed-files: 'quotes.md'
+          allowed-files: 'QUOTES.md'
           assignees: 'pryge'
           skip-verify-authority: 'write'
           comment: |
             Hi @${{ github.event.pull_request.user.login }}. Thanks for your contribution!  
-            This repository only supports modifying `quotes.md`. I will review your PR later.
+            This repository only supports modifying `QUOTES.md`. I will review your PR later.
           close: true
