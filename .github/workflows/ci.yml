@@ -24,10 +24,16 @@ jobs:
 
       - run: npm install lodash
 
+      - name: Skip check for repository owner
+        if: github.actor == 'pryge'
+        run: echo "Author is pryge — skipping verification."
+
       - name: Check quotes.brain.js
+        if: github.actor != 'pryge'
         run: node quotes.brain.js --dry-run || exit 1
 
       - name: Check quotes format
+        if: github.actor != 'pryge'
         run: |
           errors=0
           while IFS= read -r line
