@@ -4,11 +4,11 @@
 Full-Stack Developer from Ukraine 🇺🇦  
 
 - Working daily with: `.js`, `.ts`, `.css`, `.html`, `.react`, `.node`
-- I`m always active in telegram gmail linkedIn
+- I'm always active on [Telegram](https://t.me/olehTymoshchuk), [Gmail](mailto:fs.oleh.tymoshchuk@gmail.com), [LinkedIn](https://www.linkedin.com/in/oleh-tymoshchuk-8178a8392)
 
 ---
 
-### 📜 Daily Quotations
+### 📜 <a href="https://github.com/pryge/pryge/blob/main/quotes.md"> Daily Quotations</a>
 
 <!-- QUOTE_START -->
 Simplicity is the ultimate sophistication. — Leonardo da Vinci

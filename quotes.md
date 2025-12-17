@@ -1,12 +1,47 @@
-# Quotes
-### Randomly taken daily. If you want to add your quotations, welcome send a PR to this below!
+# QUOTES.md
 
-> This file is open for contributions!  
+> This file is open for **contributions**!  
 > Feel free to submit a pull request with your favorite quote.
 
-	•	Each quote should start with -  (dash + space)
-	•	Each quote must be on a single line
-	•	Do not leave empty lines between quotes
+###  ⚠️ Rules:
+
+1. Each quote must start with a **dash** and a **space**: "- " 
+
+2. One quote per line
+
+3. No empty lines
+
+4. Quotes must be written in English or Ukrainian
+
+---
+
+### 📋How to add a quote:
+
+1. Fork this repository
+
+2. Clone your fork:
+   `git clone https://github.com/YOUR_USERNAME/pryge.git`
+
+3. Create a new branch:
+   `git checkout -b new-quote`
+
+4. Edit this file (**quotes.md**)
+
+5. Add your quote at the end of the file
+
+5. Commit and push your changes:
+
+   `git add quotes.md`
+
+   `git commit -m "Add new quote"`
+
+   `git push origin new-quote`
+
+6. Open a Pull Request to the main branch
+
+---
+
+### Quotes
 
 - Life is what happens when you're busy making other plans. — John Lennon
 - Stay hungry, stay foolish. — Steve Jobs
