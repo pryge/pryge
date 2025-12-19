@@ -4,12 +4,12 @@ on:
   push:
     paths:
       - 'QUOTES.md'
-      - 'update-quote.js'
+      - 'quotes.brain.js'
       - 'README.md'
   pull_request:
     paths:
       - 'QUOTES.md'
-      - 'update-quote.js'
+      - 'quotes.brain.js'
       - 'README.md'
 
 jobs:
